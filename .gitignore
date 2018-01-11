@@ -1,0 +1,4 @@
+.DS_Store
+rdb_data/*
+!rdb_data/.gitkeep
+.env
