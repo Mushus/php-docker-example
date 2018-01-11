@@ -37,6 +37,13 @@ phpのdocker開発環境
 * *Composer Create-Project* を参考に本リポジトリをプロジェクトルートに指定し作成
   - https://readouble.com/laravel/
 
+composer が欲しい時は以下のコマンドで取得できるかと思います。
+コンテナ名は `docker ps` コマンドで取得できます
+
+```
+# docker exec [PHPのコンテナ名] -it "curl -sS https://getcomposer.org/installer | php"
+```
+
 ### ネットワーク
 
 dockerコンテナ間通信は以下のホスト:ポートで接続可能です。

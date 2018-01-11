@@ -1,4 +1,9 @@
 .DS_Store
+.env
 rdb_data/*
 !rdb_data/.gitkeep
-.env
+vendor/*
+!vendor/.gitkeep
+public/*
+!public/.gitkeep
+composer.phar
