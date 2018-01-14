@@ -6,12 +6,32 @@ phpのdocker開発環境
 
 ### 前準備
 
+#### vagrant版
+
+1. vagrant
+1. VirtualBox
+
+がインストールされていること
+
+#### docker直接版
+
 1. docker
 1. docker-compose
 
 が導入されていること
 
 ### 環境構築
+
+#### docker直接版
+
+1. `.env.example` を `.env` にコピー
+1. (プラグインが入ってないときに限り)`vagrant plugin install dotenv`
+1. (プラグインが入ってないときに限り)`vagrant plugin install vagrant-vbguest`
+1. `vagrant up`
+
+dockerが入ったvagrant環境が完成しました。
+
+#### vagrant版
 
 1. `.env.example` を `.env` にコピー
 1. `.env`の設定で環境が立ち上がります
