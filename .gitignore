@@ -1,8 +1,8 @@
 .DS_Store
 .env
 .vagrant
-rdb_data/*
-!rdb_data/.gitkeep
+rdb/data/*
+!rdb/data/.gitkeep
 vendor/*
 !vendor/.gitkeep
 public/*

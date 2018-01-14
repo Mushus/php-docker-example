@@ -1,7 +1,10 @@
 version: '3'
 services:
   rdb:
-    image: "mysql:$MYSQL_VERSION"
+    build:
+      context: "./rdb"
+      args:
+        MYSQL_VERSION: "$MYSQL_VERSION"
     ports:
       - "$RDB_PORT:3306"
     volumes:
