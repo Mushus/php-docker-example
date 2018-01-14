@@ -22,7 +22,7 @@ phpのdocker開発環境
 
 ### 環境構築
 
-#### docker直接版
+#### vagrant版
 
 1. `.env.example` を `.env` にコピー
 1. (プラグインが入ってないときに限り)`vagrant plugin install dotenv`
@@ -31,7 +31,7 @@ phpのdocker開発環境
 
 dockerが入ったvagrant環境が完成しました。
 
-#### vagrant版
+#### docker直接版
 
 1. `.env.example` を `.env` にコピー
 1. `.env`の設定で環境が立ち上がります
